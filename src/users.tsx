@@ -16,6 +16,7 @@ export const UserList = () => {
                     <TextField source="id" />
                     <TextField source="name" />
                     <EmailField source="email" />
+                    <TextField source="address.street" />
                     <TextField source="phone" />
                     <TextField source="website" />
                     <TextField source="company.name" />
